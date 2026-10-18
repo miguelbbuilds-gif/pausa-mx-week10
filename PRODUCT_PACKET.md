@@ -154,4 +154,4 @@ No target rate is claimed, because no such test was run.
 
 ## Deployment
 
-The app builds to static files. Nested routes need a host rewrite, which `vercel.json` defines. The public URL is recorded in `README.md` only after a real deploy is opened and a nested route is checked. Until then, deployment is not claimed.
+The app builds to static files. Nested routes need a host rewrite, which `vercel.json` defines. Production is https://pausa-mx-week10-tau.vercel.app. Direct loads of `/evaluar`, `/pagos`, `/demo`, and `/privacidad` were checked on 2026-10-18. The hostname `pausa-mx-week10.vercel.app` is a different site and is not this release.

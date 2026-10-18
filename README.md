@@ -76,7 +76,9 @@ Result: passed. Notes: [evidence/browser-verification.txt](evidence/browser-veri
 
 ## Live URL
 
-Not published yet. A production URL belongs here only after it has been opened and checked, including a nested route.
+https://pausa-mx-week10-tau.vercel.app
+
+Checked on 2026-10-18. The home page and direct loads of `/evaluar`, `/pagos`, `/demo`, and `/privacidad` returned HTTP 200 and rendered the Spanish screens. `pausa-mx-week10.vercel.app` was not available for this project: that hostname serves a different site.
 
 ## More documentation
 

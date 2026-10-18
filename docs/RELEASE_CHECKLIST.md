@@ -31,7 +31,7 @@ Checked on 2026-10-18 in this workspace unless a row says otherwise.
 - [x] Browser script log
 - [x] Desktop and mobile screenshots from the running app
 - [ ] Screen recording. Not produced. None is claimed
-- [ ] Production URL. Not checked yet. Do not treat a guessed `pausa-mx-week10.vercel.app` address as live
+- [x] Production URL. https://pausa-mx-week10-tau.vercel.app opened, including nested routes. The unsuffixed `pausa-mx-week10.vercel.app` hostname belongs to a different site and is not this release
 
 ## Academic limits
 
@@ -43,8 +43,8 @@ Checked on 2026-10-18 in this workspace unless a row says otherwise.
 
 ## Before calling a deploy done
 
-- [ ] Hosting account authenticated
-- [ ] Production deploy finished without an error
-- [ ] The printed URL opens
-- [ ] `/evaluar` or another nested route opens on refresh, not only the home page
-- [ ] `README.md` updated with that verified URL
+- [x] Hosting account authenticated as the existing Vercel user
+- [x] Production deploy finished without an error. Project: `miguel-d52d/pausa-mx-week10`
+- [x] https://pausa-mx-week10-tau.vercel.app opens
+- [x] `/evaluar`, `/pagos`, `/demo`, and `/privacidad` open on a direct load
+- [x] `README.md` updated with that verified URL
