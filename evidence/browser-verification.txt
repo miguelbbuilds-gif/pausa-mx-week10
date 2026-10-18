@@ -1,0 +1,10 @@
+# Browser verification
+
+Command: `node scripts/verify-browser.mjs`
+Runtime: Playwright Core driving installed Microsoft Edge, headless, against the Vite dev server.
+URL used: http://127.0.0.1:5174/
+Result: Browser verification passed.
+
+The script cleared local storage, rejected a negative profile amount, refused to divide a price by zero installments, loaded the fictional clothing example, reloaded `/evaluar?paso=sugerencia`, confirmed `NO COMPRES POR AHORA` with a `$0.00` monthly surplus and a separate `-$1,000.00` cash figure, saved an override, reloaded `/decisiones` and `/pagos`, exported JSON, recovered from corrupt storage, deleted all local data, loaded the affordable case, and opened an unknown route.
+
+Screenshots in this folder were captured during that run. They are not mockups.
